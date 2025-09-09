@@ -72,7 +72,7 @@ jobs:
       - name: Run tests
         env:
           RAILS_ENV: test
-          DATABASE_URL: postgres://postgres:postgres@postgres:5432/rails-project_test
+          DATABASE_URL: postgres://postgres:postgres@localhost:5432/rails-project_test
           # REDIS_URL: redis://localhost:6379/0
         run:
           bin/rails db:drop db:create db:schema:load && bin/rails test
