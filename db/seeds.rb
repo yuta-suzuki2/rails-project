@@ -9,8 +9,8 @@
 #   end
 User.create!(
   [
-    { name: "田中太郎", email: "taro@example.com" },
-    { name: "鈴木花子", email: "hanako@example.com" },
-    { name: "佐藤次郎", email: "jiro@example.com" }
+    { name: "田中太郎", email: "taro@example.com", password: "password1", password_confirmation: "password1" },
+    { name: "鈴木花子", email: "hanako@example.com", password: "password2", password_confirmation: "password2" },
+    { name: "佐藤次郎", email: "jiro@example.com", password: "password3", password_confirmation: "password3" }
   ]
 )
